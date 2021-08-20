@@ -10,5 +10,8 @@ public class TestCommit {
 
     public static void main(String[] args) {
         System.out.println("测试分支本地未提交文件是否可以和主干未提交文件合并");
+
+
+        System.out.println("故意制造冲突——test");
     }
 }
