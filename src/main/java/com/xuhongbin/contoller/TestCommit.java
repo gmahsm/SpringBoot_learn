@@ -8,5 +8,7 @@ package com.xuhongbin.contoller;
  **/
 public class TestCommit {
 
-
+    public static void main(String[] args) {
+        
+    }
 }
