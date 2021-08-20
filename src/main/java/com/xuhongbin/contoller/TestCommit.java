@@ -9,6 +9,9 @@ package com.xuhongbin.contoller;
 public class TestCommit {
 
     public static void main(String[] args) {
+
+
+        System.out.println("故意制造冲突");
         
     }
 }
