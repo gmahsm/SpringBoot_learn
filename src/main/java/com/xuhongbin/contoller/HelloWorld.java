@@ -37,4 +37,11 @@ public class HelloWorld {
         System.out.println("有人获取Person");
         return person.toString();
     }
+
+
+    @RequestMapping("/123")
+    public String TestGit() {
+        System.out.println("test分支");
+        return "1234";
+    }
 }
