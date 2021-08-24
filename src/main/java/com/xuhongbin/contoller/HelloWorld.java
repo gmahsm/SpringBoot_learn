@@ -28,9 +28,10 @@ public class HelloWorld {
         return person.toString();
     }
 
+
     @RequestMapping("/123")
     public String TestGit() {
-        System.out.println("主分支");
-        return "1223";
+        System.out.println("test分支");
+        return "1234";
     }
 }
