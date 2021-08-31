@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: test
+
+  resources:
+#    静态资源的默认位置
+#    默认静态资源存放路径可以有3个："classpath:/META-INF/resources/","classpath:/resources/", "classpath:/static/", "classpath:/public/"
+#    欢迎页功能：将index.html放在上面任意一个文件夹下都可以自动找到，查找顺序和上面排序一致。
+#    但当配置了自定义静态资源文件路径则只能将index.html放在自定义的文件夹下
+#    static-locations: classpath:/haha/
+
+  mvc:
+#    静态资源的前置路径
+#  （默认是拦截：/** 的，也就是所有请求，这种粗暴单一的拦截规则在真实生产环境可能不适用，
+#   比如我们设置登陆拦截并且允许访问部分静态资源。
+#    static-path-pattern: /res/**

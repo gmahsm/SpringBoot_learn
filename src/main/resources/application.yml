@@ -1,9 +1,0 @@
-#server:
-#  port: 9094
-spring:
-  profiles:
-    active: test
-person:
-  age: 13
-  name: 小红
-  like: girl
