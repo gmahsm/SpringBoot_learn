@@ -37,17 +37,10 @@
     </dependencies>
     <build>
         <plugins>
+<!--            将Spring Boot应用打包为可执行的jar或war文件，然后以通常的方式运行Spring Boot应用-->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-<!--                <configuration>-->
-<!--                    <excludes>-->
-<!--                        <exclude>-->
-<!--                            <groupId>org.springframework.boot</groupId>-->
-<!--                            <artifactId>spring-boot-configuration-processor</artifactId>-->
-<!--                        </exclude>-->
-<!--                    </excludes>-->
-<!--                </configuration>-->
             </plugin>
         </plugins>
     </build>

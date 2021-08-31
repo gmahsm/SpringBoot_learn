@@ -23,7 +23,7 @@ public class MyFilter  implements Filter {
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
         System.out.println("MyFilter初始化执行");
-        Filter.super.init(filterConfig);
+//        Filter.super.init(filterConfig);
     }
 
     @Override
@@ -48,6 +48,6 @@ public class MyFilter  implements Filter {
 
     @Override
     public void destroy() {
-        Filter.super.destroy();
+//        Filter.super.destroy();
     }
 }
