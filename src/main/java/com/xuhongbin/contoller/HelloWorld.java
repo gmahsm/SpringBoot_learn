@@ -14,7 +14,7 @@ import java.sql.SQLOutput;
  * @Author: xuhongbin
  * @Date: 2021-08-13 16:18
  **/
-@RestController
+@RestController("/user")
 public class HelloWorld {
 
     @Autowired

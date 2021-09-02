@@ -23,10 +23,10 @@ public class Myconfig {
         return bean;
     }
 
-    @Bean
-    public HiddenHttpMethodFilter hiddenHttpMethodFilter() {
-        HiddenHttpMethodFilter methodFilter = new HiddenHttpMethodFilter();
-        methodFilter.setMethodParam("hongbin");
-        return methodFilter;
-    }
+    //@Bean
+    //public HiddenHttpMethodFilter hiddenHttpMethodFilter() {
+    //    HiddenHttpMethodFilter methodFilter = new HiddenHttpMethodFilter();
+    //    methodFilter.setMethodParam("hongbin");
+    //    return methodFilter;
+    //}
 }
